@@ -1,0 +1,61 @@
+table {
+    border: 1px solid #ccc; 
+}
+
+ul {
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.contact-cards {
+    margin: 20px auto; 
+    width: 90%;
+}
+
+.card {
+    border: 1px solid #333; 
+    margin: 20px; 
+    width: 320px;
+    height: 160px; 
+    padding: 10px;
+    box-shadow: 0 0 15px #ccc;
+    background: #eee; 
+    display: inline-block;
+    vertical-align: top;
+    position: relative; 
+}
+
+.card p {
+    margin: 0;
+}
+
+.col1, .col2 {
+    width: 48%;
+    display: inline-block; 
+}
+
+.col1 {
+    vertical-align: top;
+}
+
+.col2 {
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px; 
+    width: 50%;
+}
+
+.name {
+    font-size: 20px; 
+    font-weight: 700; 
+}
+
+.comp {
+    font-size: 18px; 
+    font-weight: 400; 
+}
